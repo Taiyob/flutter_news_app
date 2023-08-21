@@ -14,7 +14,7 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return DefaultTabController(length: 2, child: Scaffold(
        appBar: AppBar(
-         title: Text('Flutter News App'),
+         title: Center(child: Text('Flutter News App')),
          bottom: const TabBar(
            tabs: [
              Tab(text: 'Breaking News',),
