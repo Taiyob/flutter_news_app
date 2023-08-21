@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'ui/home.dart';
 
 void main(){
   runApp(MyApp());
@@ -22,4 +22,3 @@ class MyApp extends StatelessWidget{
 
 
 
-// My API key is: a92d79518f4d4a73ac5cb56162098b5e            a92d79518f4d4a73ac5cb56162098b5e
